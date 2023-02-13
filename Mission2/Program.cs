@@ -4,13 +4,13 @@
 
 void ShowNumbers(int start, int finish)
 {
-  if(start > finish) 
+  if (start > finish)
   {
     return;
   }
 
-System.Console.Write($"{start} ");
-ShowNumbers(start+ 1, finish);
+  System.Console.Write($"{start} ");
+  ShowNumbers(start + 1, finish);
 }
 
 ShowNumbers(5, 10);
